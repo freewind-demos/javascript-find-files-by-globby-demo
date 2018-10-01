@@ -12,6 +12,8 @@ It will print:
 
 ```
 [ 'hello.js',
+  'package-lock.json',
+  'package.json',
   './node_modules/globby/gitignore.js',
   './node_modules/globby/index.js' ]
 ```
