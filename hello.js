@@ -1,3 +1,4 @@
-const _ = require('lodash')
+const globby = require('globby');
 
-console.log('Hello, ' + _.capitalize('javascript'))
+const files = globby.sync(['*.js', './node_modules/**/*.js', '!.*']);
+console.log(files);
