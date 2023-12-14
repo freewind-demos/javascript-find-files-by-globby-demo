@@ -1,8 +1,8 @@
 {
-  "scripts": {
-    "demo": "node hello.js"
-  },
-  "devDependencies": {
-    "globby": "^8.0.1"
-  }
+    "scripts": {
+        "start": "node hello.js"
+    },
+    "devDependencies": {
+        "globby": "^8.0.1"
+    }
 }
